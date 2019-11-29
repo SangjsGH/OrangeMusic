@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/toobar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ic_back"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@mipmap/ic_back1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="110dp"
+                android:text="歌单广场"
+                android:textColor="@color/dark"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="最热·国语"
+                        android:layout_marginLeft="13dp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/dark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <com.example.machenike.orangemusic10.utils.MyGridView
+                        android:id="@+id/grid_view"
+                        android:numColumns="3"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="13dp"
+                        android:horizontalSpacing="5dp"
+                        android:verticalSpacing="10dp"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="最热·ACG"
+                        android:layout_marginLeft="13dp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/dark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <com.example.machenike.orangemusic10.utils.MyGridView
+                        android:id="@+id/grid_view1"
+                        android:layout_marginTop="10dp"
+                        android:numColumns="3"
+                        android:layout_marginLeft="13dp"
+                        android:horizontalSpacing="5dp"
+                        android:verticalSpacing="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="最热·摇滚"
+                        android:layout_marginLeft="13dp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/dark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <com.example.machenike.orangemusic10.utils.MyGridView
+                        android:id="@+id/grid_view2"
+                        android:numColumns="3"
+                        android:layout_marginLeft="13dp"
+                        android:horizontalSpacing="5dp"
+                        android:layout_marginTop="10dp"
+                        android:verticalSpacing="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="最热·嘻哈"
+                        android:layout_marginLeft="13dp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/dark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <com.example.machenike.orangemusic10.utils.MyGridView
+                        android:id="@+id/grid_view3"
+                        android:numColumns="3"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="13dp"
+                        android:horizontalSpacing="5dp"
+
+                        android:verticalSpacing="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

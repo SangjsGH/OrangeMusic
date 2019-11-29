@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/ranking_number1"
+            android:layout_marginTop="8dp"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="50dp" />
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/ranking_songname1"
+                android:textStyle="bold"
+                android:textColor="@color/dark"
+                android:layout_width="250dp"
+                android:layout_height="25dp" />
+            <TextView
+                android:id="@+id/ranking_singer1"
+                android:layout_width="250dp"
+                android:layout_height="25dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

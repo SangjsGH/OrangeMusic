@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="@color/colororange2"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="95dp"
+        android:background="@mipmap/q" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <Button
+                android:gravity="center"
+                android:id="@+id/btn_login"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="150dp"
+                android:background="@mipmap/btnbg"
+                android:text="登录/注册"
+                android:textColor="@color/colororange"
+                android:textSize="22sp" />
+            <Button
+                android:id="@+id/btn_tiyan"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="15dp"
+                android:background="@mipmap/btnbg"
+                android:text="抢先体验"
+                android:textColor="@color/colororange"
+                android:textSize="22sp" />
+        </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/bottom_music"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+
+            android:id="@+id/btn_qq"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:background="@mipmap/qq" />
+
+        <Button
+
+            android:id="@+id/btn_wx"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/wx"
+             />
+
+        <Button
+            android:id="@+id/btn_wb"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/wb"
+            />
+
+        <Button
+            android:id="@+id/btn_tel"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/telephone"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="版权问题归橙汁之花团队所有，违者必究"
+        android:textSize="22px"
+        android:textColor="@color/colordark"/>
+
+
+
+</LinearLayout>

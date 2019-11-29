@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark">#141414</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="yello">#f76701</color>
+    <color name="reddemo">#FF0033</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_60P">#80FFFFFF</color>
+    <color name="huise">#847f7f</color>
+    <color name="colororange">#e0620d</color>
+    <color name="colororange2">#f4f9c406</color>
+    <color name="colordark">#ef767474</color>
+    <color name="huise2">#dddd</color>
+</resources>

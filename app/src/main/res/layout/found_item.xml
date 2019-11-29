@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="@drawable/ic_corner1"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/mv_pic"
+            android:background="@drawable/ic_corner1"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:id="@+id/mv_title"
+            android:layout_width="350dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="0.1dip"
+            android:background="#9f9e9e" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginLeft="15dp"
+            android:id="@+id/mv_singer_pic"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+            <TextView
+                android:id="@+id/mv_singer"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="150dp"
+                android:layout_height="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
